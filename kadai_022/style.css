@@ -19,14 +19,13 @@ main {
 }
 #parent {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .contents {
   border: solid 3px rgb(238,204,204);
   flex-basis: 25%;
   padding: 10px 15px;
   margin: 20px 0;
-  align-self: center;
   text-align: center;
 }
 h2 {
